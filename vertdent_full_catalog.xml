@@ -1,258 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2025-08-04 14:55">
+<yml_catalog date="2025-08-04">
   <shop>
-    <name>VertDent</name>
-    <company>ООО Верт-Дент</company>
+    <name>ООО "Верт-Дент"</name>
+    <company>ООО "Верт-Дент"</company>
     <url>https://vertdent.com</url>
-    <email>info@vertdent.com</email>
-    <description>Каталог врачей клиники VertDent</description>
+    <email>info.alt@vertdent.com</email>
     <currencies>
-      <currency id="RUR" rate="1"/>
+      <currency id="RUR" rate="1" />
     </currencies>
     <categories>
       <category id="1">Врач</category>
     </categories>
     <sets>
-      <set id="stomatolog">
-        <name>Стоматолог</name>
-        <url>https://vertdent.com</url>
+      <set id="terapevt">
+        <name>Терапевт</name>
+        <url>https://vertdent.com/terapevt</url>
       </set>
-      <set id="stomatolog-terapevt">
-        <name>Стоматолог-терапевт</name>
-        <url>https://vertdent.com</url>
+      <set id="khirurg">
+        <name>Хирург</name>
+        <url>https://vertdent.com/khirurg</url>
       </set>
-      <set id="stomatolog-ortoped">
-        <name>Стоматолог-ортопед</name>
-        <url>https://vertdent.com</url>
-      </set>
-      <set id="stomatolog-hirurg">
-        <name>Стоматолог-хирург</name>
-        <url>https://vertdent.com</url>
-      </set>
-      <set id="implantolog">
-        <name>Имплантолог</name>
-        <url>https://vertdent.com</url>
+      <set id="ortoped">
+        <name>Ортопед</name>
+        <url>https://vertdent.com/ortoped</url>
       </set>
       <set id="ortodont">
         <name>Ортодонт</name>
-        <url>https://vertdent.com</url>
+        <url>https://vertdent.com/ortodont</url>
+      </set>
+      <set id="implantolog">
+        <name>Имплантолог</name>
+        <url>https://vertdent.com/implantolog</url>
       </set>
       <set id="gigienist">
-        <name>Стоматолог-гигиенист</name>
-        <url>https://vertdent.com</url>
+        <name>Гигиенист</name>
+        <url>https://vertdent.com/gigienist</url>
       </set>
     </sets>
     <offers>
-      <!-- Offer for Kostyleva Natalya Valeryevna -->
-      <offer id="doc1" group_id="1">
+      <offer id="doc1" group_id="1" available="true">
         <name>Костылева Наталья Валерьевна</name>
-        <url>https://vertdent.com/?offer-id=kostyleva</url>
+        <url>https://vertdent.com?offer-id=1</url>
         <price from="true">0</price>
-        <oldprice>1000</oldprice>
         <currencyId>RUR</currencyId>
-        <sales_notes>Первичный прием</sales_notes>
-        <set-ids>stomatolog, stomatolog-ortoped, stomatolog-terapevt</set-ids>
-        <picture>https://avatars.mds.yandex.net/get-unisearch/5710903/medicine_qsMQp7A9H9aSQRVcXAft/orig</picture>
-        <description>Главный врач клиники VertDent, стоматолог-ортопед с 18-летним стажем. Специализируется на протезировании и лечении сложных клинических случаев в ортопедической стоматологии.</description>
+        <sales_notes>Первичный приём</sales_notes>
+        <set-ids>terapevt, ortoped</set-ids>
+        <picture>https://avatars.mds.yandex.net/get-unisearch/5710903/medicine_qsMQp7A9H9aSQRVcXAft/210x210face</picture>
+        <description>Занимается терапевтическим и ортопедическим лечением зубов. Специализируется на протезировании (коронки, мосты, съемные протезы) и лечении кариеса и его осложнений. Проводит комплексную реабилитацию полости рта, восстанавливая здоровье и функцию зубочелюстной системы.</description>
         <categoryId>1</categoryId>
         <param name="Фамилия">Костылева</param>
         <param name="Имя">Наталья</param>
         <param name="Отчество">Валерьевна</param>
-        <param name="Годы опыта">18</param>
-        <param name="Начало карьеры">2007-01-01</param>
+        <param name="Годы опыта">20</param>
+        <param name="Начало карьеры">2004-01-01</param>
         <param name="Город">г. Санкт-Петербург</param>
         <param name="Взрослый врач">true</param>
         <param name="Детский врач">false</param>
         <param name="Средняя оценка">5.0</param>
         <param name="Число отзывов">5</param>
-        <param name="Профессиональный рейтинг">4.9</param>
-        <param name="Ссылка на профиль врача">https://vertdent.com#kostyleva</param>
+        <param name="Название клиники">Стоматология Vert-Dent</param>
         <param name="Город клиники">г. Санкт-Петербург</param>
-        <param name="Адрес клиники">ул. Алтайская, д. 21</param>
-        <param name="Название клиники">Стоматологическая клиника «Верт-Дент»</param>
+        <param name="Адрес клиники">Алтайская ул., д. 21</param>
         <param name="Возможность записи">true</param>
         <param name="Онлайн-расписание">true</param>
-        <param name="Телефон для записи">8(911)170-07-00</param>
-        <param name="ИНН клиники">7839486592</param>
-        <param name="Приём по ОМС">false</param>
-        <param name="Вызов на дом">false</param>
-        <param name="Видеоприём">false</param>
-        <param name="Отзыв - 1" unit="Автор">Аноним</param>
-        <param name="Отзыв - 1" unit="Дата">05.11.2023 10:00:00</param>
-        <param name="Отзыв - 1" unit="Отзыв проверен">false</param>
+        <param name="Телефон для записи">+7(911)170-07-00</param>
+        <param name="Отзыв - 1" unit="Автор">Людмила Шудинова</param>
+        <param name="Отзыв - 1" unit="Дата">19.06.2024 09:00:00</param>
+        <param name="Отзыв - 1" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 1" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 1" unit="Оценка">5</param>
-        <param name="Отзыв - 1" unit="Комментарий">Уже 9 лет пациент Натальи Валерьевны. Она просто волшебница!</param>
-        <param name="Отзыв - 2" unit="Автор">Людмила Шудинова</param>
-        <param name="Отзыв - 2" unit="Дата">19.06.2024 15:30:00</param>
-        <param name="Отзыв - 2" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 1" unit="Понравилось">Наталья Валерьевна – врач от Бога! Профессиональна, умеет успокоить пациента.</param>
+        <param name="Отзыв - 2" unit="Автор">Галина Степанова</param>
+        <param name="Отзыв - 2" unit="Дата">29.11.2023 15:00:00</param>
+        <param name="Отзыв - 2" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 2" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 2" unit="Оценка">5</param>
-        <param name="Отзыв - 2" unit="Комментарий">Наталья Валерьевна – врач от бога!!! Спасибо ей за профессионализм и умение успокоить. Я, боявшаяся стоматологов, теперь спокойно сажусь в кресло. Огромное спасибо!</param>
-        <param name="Отзыв - 3" unit="Автор">Галина Степанова</param>
-        <param name="Отзыв - 3" unit="Дата">29.11.2023 11:00:00</param>
-        <param name="Отзыв - 3" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 2" unit="Понравилось">Внимательное и чуткое отношение врача. Доктор помогла решить сложный вопрос протезирования.</param>
+        <param name="Отзыв - 3" unit="Автор">Аноним</param>
+        <param name="Отзыв - 3" unit="Дата">05.11.2023 10:00:00</param>
+        <param name="Отзыв - 3" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 3" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 3" unit="Оценка">5</param>
-        <param name="Отзыв - 3" unit="Комментарий">Хочу выразить благодарность Наталье Валерьевне за внимательное и чуткое отношение. Вопрос протезирования очень важный и ответственный, особенно когда в пожилом возрасте остаёшься без зубов. Доктор всё сделала на высшем уровне, вернула мне возможность улыбаться и нормально пережёвывать пищу. Очень довольна результатом!</param>
+        <param name="Отзыв - 3" unit="Понравилось">Доктор – настоящая волшебница, лечусь у Натальи Валерьевны уже 9 лет!</param>
       </offer>
-      <!-- Offer for Yakimchuk Dmitriy Alexandrovich -->
-      <offer id="doc2" group_id="2">
+      <offer id="doc2" group_id="2" available="true">
         <name>Якимчук Дмитрий Александрович</name>
-        <url>https://vertdent.com/?offer-id=yakimchuk</url>
+        <url>https://vertdent.com?offer-id=2</url>
         <price from="true">0</price>
-        <oldprice>1000</oldprice>
         <currencyId>RUR</currencyId>
-        <sales_notes>Первичный прием</sales_notes>
-        <set-ids>stomatolog, stomatolog-hirurg, implantolog</set-ids>
-        <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_vJpKyNsxY4w1LDyso8YB/orig</picture>
-        <description>Челюстно-лицевой хирург, хирург-имплантолог. Опыт работы 30 лет. Выполняет удаление зубов любой сложности, дентальную имплантацию, синус-лифтинг и другие операции.</description>
+        <sales_notes>Первичный приём</sales_notes>
+        <set-ids>khirurg, implantolog</set-ids>
+        <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_vJpKyNsxY4w1LDyso8YB/210x210face</picture>
+        <description>Специализируется на хирургических методах лечения в стоматологии. Проводит операции по удалению зубов, установке имплантов, подсадке костной ткани и другие сложные хирургические вмешательства. Консультирует по вопросам протезирования и имплантации зубов. Выполняет зубосохраняющие процедуры, лечение воспалительных процессов, подготовку полости рта к протезированию, а также удаление новообразований в полости рта.</description>
         <categoryId>1</categoryId>
         <param name="Фамилия">Якимчук</param>
         <param name="Имя">Дмитрий</param>
         <param name="Отчество">Александрович</param>
-        <param name="Годы опыта">30</param>
-        <param name="Начало карьеры">1995-01-01</param>
+        <param name="Годы опыта">27</param>
+        <param name="Начало карьеры">1998-01-01</param>
         <param name="Город">г. Санкт-Петербург</param>
         <param name="Взрослый врач">true</param>
         <param name="Детский врач">false</param>
         <param name="Средняя оценка">5.0</param>
         <param name="Число отзывов">28</param>
-        <param name="Профессиональный рейтинг">5.0</param>
-        <param name="Ссылка на профиль врача">https://vertdent.com#yakimchuk</param>
+        <param name="Название клиники">Стоматология Vert-Dent</param>
         <param name="Город клиники">г. Санкт-Петербург</param>
-        <param name="Адрес клиники">ул. Алтайская, д. 21</param>
-        <param name="Название клиники">Стоматологическая клиника «Верт-Дент»</param>
+        <param name="Адрес клиники">Алтайская ул., д. 21</param>
         <param name="Возможность записи">true</param>
         <param name="Онлайн-расписание">true</param>
-        <param name="Телефон для записи">8(911)170-07-00</param>
-        <param name="ИНН клиники">7839486592</param>
-        <param name="Приём по ОМС">false</param>
-        <param name="Вызов на дом">false</param>
-        <param name="Видеоприём">false</param>
-        <param name="Отзыв - 1" unit="Автор">Селиверстова Н.</param>
-        <param name="Отзыв - 1" unit="Дата">08.03.2024 09:15:00</param>
-        <param name="Отзыв - 1" unit="Отзыв проверен">false</param>
+        <param name="Телефон для записи">+7(911)170-07-00</param>
+        <param name="Отзыв - 1" unit="Автор">Аноним</param>
+        <param name="Отзыв - 1" unit="Дата">14.06.2025 13:40:00</param>
+        <param name="Отзыв - 1" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 1" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 1" unit="Оценка">5</param>
-        <param name="Отзыв - 1" unit="Комментарий">Хочу выразить огромную благодарность доктору Якимчуку Дмитрию Александровичу! Обратилась в клинику для удаления сложного зуба мудрости, очень боялась. Но Дмитрий Александрович всё сделал настолько профессионально и безболезненно, что я даже не успела испугаться. Очень внимательный и чуткий врач.</param>
-        <param name="Отзыв - 2" unit="Автор">Валентин Кононов</param>
-        <param name="Отзыв - 2" unit="Дата">09.12.2023 14:00:00</param>
-        <param name="Отзыв - 2" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 1" unit="Понравилось">Доктор всё объяснил и удалил зубы мудрости максимально комфортно и безболезненно.</param>
+        <param name="Отзыв - 2" unit="Автор">Аноним</param>
+        <param name="Отзыв - 2" unit="Дата">24.04.2025 21:48:00</param>
+        <param name="Отзыв - 2" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 2" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 2" unit="Оценка">5</param>
-        <param name="Отзыв - 2" unit="Комментарий">Огромное спасибо Дмитрию Александровичу за безболезненное и быстрое удаление зубов! Процедура прошла без проблем, мне всё понравилось. Обязательно буду обращаться снова!</param>
-        <param name="Отзыв - 3" unit="Автор">Денис Никитин</param>
-        <param name="Отзыв - 3" unit="Дата">29.11.2023 12:30:00</param>
-        <param name="Отзыв - 3" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 2" unit="Понравилось">У доктора «золотые руки», удаление прошло без боли. Теперь совсем не боюсь лечиться.</param>
+        <param name="Отзыв - 3" unit="Автор">Аноним</param>
+        <param name="Отзыв - 3" unit="Дата">08.03.2024 17:00:00</param>
+        <param name="Отзыв - 3" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 3" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 3" unit="Оценка">5</param>
-        <param name="Отзыв - 3" unit="Комментарий">Обращался к Дмитрию Александровичу за имплантацией – всем остался доволен. Работа врача очень качественная, доктор помог со всеми вопросами и провёл процедуру максимально безболезненно!</param>
+        <param name="Отзыв - 3" unit="Понравилось">Настоящий профессионал: быстро и безболезненно удалил три зуба мудрости. Очень добрый врач, удалять зубы с ним не страшно.</param>
       </offer>
-      <!-- Offer for Shebatina Anastasia Andreevna -->
-      <offer id="doc3" group_id="3">
+      <offer id="doc3" group_id="3" available="true">
         <name>Шебатина Анастасия Андреевна</name>
-        <url>https://vertdent.com/?offer-id=shebatina</url>
-        <price>1500</price>
+        <url>https://vertdent.com?offer-id=3</url>
+        <price from="true">0</price>
         <currencyId>RUR</currencyId>
-        <sales_notes>Первичный прием</sales_notes>
-        <set-ids>stomatolog, ortodont</set-ids>
-        <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_i6Bl1YtVXcbjQ2JgGW4u/orig</picture>
-        <description>Врач-ортодонт. Принимает взрослых и детей, стаж 11 лет. Специализируется на лечении аномалий прикуса у пациентов всех возрастов.</description>
+        <sales_notes>Первичный приём</sales_notes>
+        <set-ids>ortodont</set-ids>
+        <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_i6Bl1YtVXcbjQ2JgGW4u/210x210face</picture>
+        <description>Занимается исправлением прикуса у взрослых и детей с помощью современных методов ортодонтии. Проводит лечение с применением съёмных и несъёмных ортодонтических аппаратов: вестибулярные и лингвальные брекет-системы, элайнеры. Постоянно совершенствует навыки, участвует в профессиональных семинарах и конференциях.</description>
         <categoryId>1</categoryId>
         <param name="Фамилия">Шебатина</param>
         <param name="Имя">Анастасия</param>
         <param name="Отчество">Андреевна</param>
-        <param name="Годы опыта">11</param>
-        <param name="Начало карьеры">2014-01-01</param>
+        <param name="Годы опыта">13</param>
+        <param name="Начало карьеры">2012-01-01</param>
         <param name="Город">г. Санкт-Петербург</param>
         <param name="Взрослый врач">true</param>
         <param name="Детский врач">true</param>
-        <param name="Средняя оценка">4.8</param>
+        <param name="Средняя оценка">4.5</param>
         <param name="Число отзывов">3</param>
-        <param name="Профессиональный рейтинг">4.7</param>
-        <param name="Ссылка на профиль врача">https://vertdent.com#shebatina</param>
+        <param name="Название клиники">Стоматология Vert-Dent</param>
         <param name="Город клиники">г. Санкт-Петербург</param>
-        <param name="Адрес клиники">ул. Алтайская, д. 21</param>
-        <param name="Название клиники">Стоматологическая клиника «Верт-Дент»</param>
+        <param name="Адрес клиники">Алтайская ул., д. 21</param>
         <param name="Возможность записи">true</param>
         <param name="Онлайн-расписание">true</param>
-        <param name="Телефон для записи">8(911)170-07-00</param>
-        <param name="ИНН клиники">7839486592</param>
-        <param name="Приём по ОМС">false</param>
-        <param name="Вызов на дом">false</param>
-        <param name="Видеоприём">false</param>
-        <param name="Отзыв - 1" unit="Автор">Инкогнито 8745</param>
-        <param name="Отзыв - 1" unit="Дата">27.08.2023 10:45:00</param>
-        <param name="Отзыв - 1" unit="Отзыв проверен">false</param>
+        <param name="Телефон для записи">+7(911)170-07-00</param>
+        <param name="Отзыв - 1" unit="Автор">Аноним</param>
+        <param name="Отзыв - 1" unit="Дата">29.02.2020 13:25:00</param>
+        <param name="Отзыв - 1" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 1" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 1" unit="Оценка">5</param>
-        <param name="Отзыв - 1" unit="Комментарий">Анастасия Андреевна – моя волшебница! Перешла к ней от другого ортодонта. Она перфекционист в своей работе: добрая, чуткая и внимательная. Рада, что лечусь у такого замечательного специалиста!</param>
-        <param name="Отзыв - 2" unit="Автор">Ольга Каленова</param>
-        <param name="Отзыв - 2" unit="Дата">31.01.2024 16:00:00</param>
-        <param name="Отзыв - 2" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 1" unit="Понравилось">2 года лечусь у Анастасии Андреевны. Огромная благодарность за чуткое, внимательное отношение и профессионализм!</param>
+        <param name="Отзыв - 2" unit="Автор">Аноним</param>
+        <param name="Отзыв - 2" unit="Дата">27.12.2019 00:18:00</param>
+        <param name="Отзыв - 2" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 2" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 2" unit="Оценка">5</param>
-        <param name="Отзыв - 2" unit="Комментарий">Ездим к ортодонту с другого конца города. Анастасия Андреевна – очень внимательный и грамотный специалист!</param>
-        <param name="Отзыв - 3" unit="Автор">Анна М.</param>
-        <param name="Отзыв - 3" unit="Дата">15.07.2024 09:00:00</param>
-        <param name="Отзыв - 3" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 2" unit="Понравилось">Без удаления зубов врач справилась с моей сложной ситуацией. Зубы теперь ровные, спасибо огромное!</param>
+        <param name="Отзыв - 3" unit="Автор">Ольга Каленова</param>
+        <param name="Отзыв - 3" unit="Дата">31.01.2024 12:00:00</param>
+        <param name="Отзыв - 3" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 3" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 3" unit="Оценка">5</param>
-        <param name="Отзыв - 3" unit="Комментарий">Очень довольна лечением у Анастасии Андреевны. Побольше бы таких хороших врачей, которые не навязывают пациентам лишние процедуры!</param>
+        <param name="Отзыв - 3" unit="Понравилось">Очень внимательный и грамотный специалист! Ездим к ней с другого конца города.</param>
       </offer>
-      <!-- Offer for Muravskaya Yuliya Sergeevna -->
-      <offer id="doc4" group_id="4">
+      <offer id="doc4" group_id="4" available="true">
         <name>Муравская Юлия Сергеевна</name>
-        <url>https://vertdent.com/?offer-id=muravskaya</url>
+        <url>https://vertdent.com?offer-id=4</url>
         <price from="true">0</price>
-        <oldprice>1000</oldprice>
         <currencyId>RUR</currencyId>
-        <sales_notes>Первичный прием</sales_notes>
-        <set-ids>stomatolog, stomatolog-terapevt, gigienist</set-ids>
-        <picture>https://avatars.mds.yandex.net/get-unisearch/5710903/medicine_wJWPp7hrVvaLtLq7QiI0/orig</picture>
-        <description>Стоматолог-терапевт, гигиенист. Проводит лечение кариеса и гигиенические процедуры. Принимает взрослых (стаж 5 лет).</description>
+        <sales_notes>Первичный приём</sales_notes>
+        <set-ids>terapevt, gigienist</set-ids>
+        <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_sW3Z7LejeFKPW9W2PuYE/210x210face</picture>
+        <description>Специализируется на терапевтическом лечении зубов и гигиене полости рта. Проводит лечение кариеса, пульпита, периодонтита и других заболеваний зубов. Выполняет профессиональную гигиеническую чистку (удаление зубного налёта и камня, отбеливание, реминерализация эмали) для профилактики стоматологических заболеваний. Принимает как взрослых, так и детей.</description>
         <categoryId>1</categoryId>
         <param name="Фамилия">Муравская</param>
         <param name="Имя">Юлия</param>
         <param name="Отчество">Сергеевна</param>
-        <param name="Годы опыта">5</param>
-        <param name="Начало карьеры">2020-01-01</param>
+        <param name="Годы опыта">7</param>
+        <param name="Начало карьеры">2018-01-01</param>
         <param name="Город">г. Санкт-Петербург</param>
         <param name="Взрослый врач">true</param>
         <param name="Детский врач">true</param>
         <param name="Средняя оценка">4.5</param>
         <param name="Число отзывов">12</param>
-        <param name="Профессиональный рейтинг">4.5</param>
-        <param name="Ссылка на профиль врача">https://vertdent.com#muravskaya</param>
+        <param name="Название клиники">Стоматология Vert-Dent</param>
         <param name="Город клиники">г. Санкт-Петербург</param>
-        <param name="Адрес клиники">ул. Алтайская, д. 21</param>
-        <param name="Название клиники">Стоматологическая клиника «Верт-Дент»</param>
+        <param name="Адрес клиники">Алтайская ул., д. 21</param>
         <param name="Возможность записи">true</param>
         <param name="Онлайн-расписание">true</param>
-        <param name="Телефон для записи">8(911)170-07-00</param>
-        <param name="ИНН клиники">7839486592</param>
-        <param name="Приём по ОМС">false</param>
-        <param name="Вызов на дом">false</param>
-        <param name="Видеоприём">false</param>
+        <param name="Телефон для записи">+7(911)170-07-00</param>
         <param name="Отзыв - 1" unit="Автор">Георгий Рогов</param>
-        <param name="Отзыв - 1" unit="Дата">02.12.2024 18:20:00</param>
-        <param name="Отзыв - 1" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 1" unit="Дата">02.12.2024 14:00:00</param>
+        <param name="Отзыв - 1" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 1" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 1" unit="Оценка">5</param>
-        <param name="Отзыв - 1" unit="Комментарий">Хочу выразить свою благодарность Юлии Сергеевне за качественное лечение моего кариеса. Процедура прошла быстро и безболезненно. Огромное спасибо за вашу заботу о пациентах!</param>
-        <param name="Отзыв - 2" unit="Автор">Bogdan</param>
-        <param name="Отзыв - 2" unit="Дата">05.07.2024 11:45:00</param>
-        <param name="Отзыв - 2" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 1" unit="Понравилось">Лечение кариеса прошло быстро и безболезненно. Огромное спасибо за вашу заботу о пациентах!</param>
+        <param name="Отзыв - 2" unit="Автор">Богдан</param>
+        <param name="Отзыв - 2" unit="Дата">05.07.2024 10:30:00</param>
+        <param name="Отзыв - 2" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 2" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 2" unit="Оценка">5</param>
-        <param name="Отзыв - 2" unit="Комментарий">Проходил лечение и теперь регулярно посещаю профилактические процедуры у Юлии Сергеевны. Категорически доволен! Администраторы компетентные и приятные, в общем, клиника топ!</param>
-        <param name="Отзыв - 3" unit="Автор">Наталья Русецкая</param>
-        <param name="Отзыв - 3" unit="Дата">16.05.2024 10:15:00</param>
-        <param name="Отзыв - 3" unit="Отзыв проверен">false</param>
+        <param name="Отзыв - 2" unit="Понравилось">Лечился и прохожу профилактику у Юлии Сергеевны — очень доволен её работой! Компетентный и приятный врач.</param>
+        <param name="Отзыв - 3" unit="Автор">Влад К.</param>
+        <param name="Отзыв - 3" unit="Дата">05.07.2024 11:00:00</param>
+        <param name="Отзыв - 3" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 3" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 3" unit="Оценка">5</param>
-        <param name="Отзыв - 3" unit="Комментарий">Терапевт Юлия Сергеевна очень понравилась, хороший специалист, всё объяснила и выдала план лечения. Приём прошёл успешно, коллектив клиники очень любезен.</param>
+        <param name="Отзыв - 3" unit="Понравилось">Доктор Юлия Сергеевна очень внимательно относится к пациенту и всё подробно объясняет. Настоящий профессионал, которому можно доверять.</param>
       </offer>
     </offers>
   </shop>
