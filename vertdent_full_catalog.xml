@@ -6,11 +6,8 @@
     <url>https://vertdent.com</url>
     <email>info.alt@vertdent.com</email>
     <currencies>
-      <currency id="RUR" rate="1" />
+      <currency id="RUR" rate="1"/>
     </currencies>
-    <categories>
-    <category id="1">Врач</category>
-  </categories>
     <categories>
       <category id="1">Врач</category>
     </categories>
@@ -224,5 +221,6 @@
     </offers>
   </shop>
 </yml_catalog>
+
 
 
