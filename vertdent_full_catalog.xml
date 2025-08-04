@@ -38,7 +38,7 @@
       </set>
     </sets>
     <offers>
-      <offer id="doc1" group_id="1" available="true">
+      <offer id="doc1" group_id="1">
         <name>Костылева Наталья Валерьевна</name>
         <url>https://vertdent.com?offer-id=1</url>
         <price from="true">0</price>
@@ -83,7 +83,7 @@
         <param name="Отзыв - 3" unit="Оценка">5</param>
         <param name="Отзыв - 3" unit="Понравилось">Доктор – настоящая волшебница, лечусь у Натальи Валерьевны уже 9 лет!</param>
       </offer>
-      <offer id="doc2" group_id="2" available="true">
+      <offer id="doc2" group_id="2">
         <name>Якимчук Дмитрий Александрович</name>
         <url>https://vertdent.com?offer-id=2</url>
         <price from="true">0</price>
@@ -128,7 +128,7 @@
         <param name="Отзыв - 3" unit="Оценка">5</param>
         <param name="Отзыв - 3" unit="Понравилось">Настоящий профессионал: быстро и безболезненно удалил три зуба мудрости. Очень добрый врач, удалять зубы с ним не страшно.</param>
       </offer>
-      <offer id="doc3" group_id="3" available="true">
+      <offer id="doc3" group_id="3">
         <name>Шебатина Анастасия Андреевна</name>
         <url>https://vertdent.com?offer-id=3</url>
         <price from="true">0</price>
@@ -173,7 +173,7 @@
         <param name="Отзыв - 3" unit="Оценка">5</param>
         <param name="Отзыв - 3" unit="Понравилось">Очень внимательный и грамотный специалист! Ездим к ней с другого конца города.</param>
       </offer>
-      <offer id="doc4" group_id="4" available="true">
+      <offer id="doc4" group_id="4">
         <name>Муравская Юлия Сергеевна</name>
         <url>https://vertdent.com?offer-id=4</url>
         <price from="true">0</price>
@@ -221,3 +221,4 @@
     </offers>
   </shop>
 </yml_catalog>
+
