@@ -2,7 +2,7 @@
 <yml_catalog date="2025-08-04">
   <shop>
     <name>VertDent.Врачи</name>
-    <company>ООО "Верт-Дент"</company>
+    <company>ООО "ВертДент"</company>
     <url>https://vertdent.com</url>
     <email>info.alt@vertdent.com</email>
     <currencies>
@@ -221,6 +221,7 @@
     </offers>
   </shop>
 </yml_catalog>
+
 
 
 
