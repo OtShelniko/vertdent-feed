@@ -2,7 +2,7 @@
 <yml_catalog date="2025-08-04">
   <shop>
     <name>VertDent.Врачи</name>
-    <company>ООО "ВертДент"</company>
+    <company>ООО "Верт-Дент"</company>
     <url>https://vertdent.com</url>
     <email>info.alt@vertdent.com</email>
     <picture>https://otshelniko.github.io/vertdent-feed/vert-dent-logo.png</picture>
@@ -42,10 +42,10 @@
       <offer id="doc1" group_id="1">
         <name>Костылева Наталья Валерьевна</name>
         <url>https://vertdent.com?offer-id=1</url>
-        <price from="true">0</price>
+        <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>Первичный приём</sales_notes>
-        <set-ids>terapevt, ortoped</set-ids>
+        <set-ids>terapevt,ortoped</set-ids>
         <picture>https://avatars.mds.yandex.net/get-unisearch/5710903/medicine_qsMQp7A9H9aSQRVcXAft/210x210face</picture>
         <description>Занимается терапевтическим и ортопедическим лечением зубов. Специализируется на протезировании (коронки, мосты, съемные протезы) и лечении кариеса и его осложнений. Проводит комплексную реабилитацию полости рта, восстанавливая здоровье и функцию зубочелюстной системы.</description>
         <categoryId>1</categoryId>
@@ -70,7 +70,7 @@
         <param name="Отзыв - 1" unit="Отзыв проверен">true</param>
         <param name="Отзыв - 1" unit="Отзыв участвует в рейтинге">true</param>
         <param name="Отзыв - 1" unit="Оценка">5</param>
-        <param name="Отзыв - 1" unit="Понравилось">Наталья Валерьевна – врач от Бога! Профессиональна, умеет успокоить пациента.</param>
+        <param name="Отзыв - 1" unit="Понравилось">Наталья Валерьевна – врач от Бога! Профессиональна, умеет успокоить пациента.</param>
         <param name="Отзыв - 2" unit="Автор">Галина Степанова</param>
         <param name="Отзыв - 2" unit="Дата">29.11.2023 15:00:00</param>
         <param name="Отзыв - 2" unit="Отзыв проверен">true</param>
@@ -87,10 +87,10 @@
       <offer id="doc2" group_id="2">
         <name>Якимчук Дмитрий Александрович</name>
         <url>https://vertdent.com?offer-id=2</url>
-        <price from="true">0</price>
+        <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>Первичный приём</sales_notes>
-        <set-ids>khirurg, implantolog</set-ids>
+        <set-ids>khirurg,implantolog</set-ids>
         <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_vJpKyNsxY4w1LDyso8YB/210x210face</picture>
         <description>Специализируется на хирургических методах лечения в стоматологии. Проводит операции по удалению зубов, установке имплантов, подсадке костной ткани и другие сложные хирургические вмешательства. Консультирует по вопросам протезирования и имплантации зубов. Выполняет зубосохраняющие процедуры, лечение воспалительных процессов, подготовку полости рта к протезированию, а также удаление новообразований в полости рта.</description>
         <categoryId>1</categoryId>
@@ -132,7 +132,7 @@
       <offer id="doc3" group_id="3">
         <name>Шебатина Анастасия Андреевна</name>
         <url>https://vertdent.com?offer-id=3</url>
-        <price from="true">0</price>
+        <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>Первичный приём</sales_notes>
         <set-ids>ortodont</set-ids>
@@ -177,10 +177,10 @@
       <offer id="doc4" group_id="4">
         <name>Муравская Юлия Сергеевна</name>
         <url>https://vertdent.com?offer-id=4</url>
-        <price from="true">0</price>
+        <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>Первичный приём</sales_notes>
-        <set-ids>terapevt, gigienist</set-ids>
+        <set-ids>terapevt,gigienist</set-ids>
         <picture>https://avatars.mds.yandex.net/get-unisearch/5458967/medicine_sW3Z7LejeFKPW9W2PuYE/210x210face</picture>
         <description>Специализируется на терапевтическом лечении зубов и гигиене полости рта. Проводит лечение кариеса, пульпита, периодонтита и других заболеваний зубов. Выполняет профессиональную гигиеническую чистку (удаление зубного налёта и камня, отбеливание, реминерализация эмали) для профилактики стоматологических заболеваний. Принимает как взрослых, так и детей.</description>
         <categoryId>1</categoryId>
@@ -222,9 +222,3 @@
     </offers>
   </shop>
 </yml_catalog>
-
-
-
-
-
-
