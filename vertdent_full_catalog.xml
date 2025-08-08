@@ -5,6 +5,7 @@
     <company>ООО "ВертДент"</company>
     <url>https://vertdent.com</url>
     <email>info.alt@vertdent.com</email>
+    <picture>https:https://otshelniko.github.io/vertdent-feed/vert-dent-logo.png</picture>
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
@@ -221,6 +222,7 @@
     </offers>
   </shop>
 </yml_catalog>
+
 
 
 
