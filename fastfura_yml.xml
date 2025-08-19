@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-08-19 16:03">
+  <shop>
+    <name>FastFura</name>
+    <company>FastFura Грузоперевозки</company>
+    <url>https://fastfura.ru/</url>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Междугородние грузоперевозки</category>
+    </categories>
+    <offers>
+      <offer id="route-kzn-mow" available="true">
+        <url>https://fastfura.ru/gruzoperevozki-kazan-moskva-furoj/</url>
+        <price>50000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Казань → Москва (фура)</name>
+        <picture>https://fastfura.ru/wp-content/uploads/2025/08/kazan-moscow_600x400.jpg</picture>
+        <delivery>true</delivery>
+        <description>Перевозка фурой по маршруту Казань → Москва. Время в пути ~15 часов. Цена от 50 000 ₽.</description>
+      </offer>
+      <offer id="route-kzn-ekt" available="true">
+        <url>https://fastfura.ru/gruzoperevozki-kazan-ekaterinburg-furoj/</url>
+        <price>95000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Казань → Екатеринбург (фура)</name>
+        <picture>https://fastfura.ru/wp-content/uploads/2025/08/kazan-ekaterinburg_600x400.jpg</picture>
+        <delivery>true</delivery>
+        <description>Перевозка фурой по маршруту Казань → Екатеринбург. Время в пути ~17 часов. Цена от 95 000 ₽.</description>
+      </offer>
+      <offer id="route-kzn-krr" available="true">
+        <url>https://fastfura.ru/gruzoperevozki-kazan-krasnodar-furoj/</url>
+        <price>165000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Казань → Краснодар (фура)</name>
+        <picture>https://fastfura.ru/wp-content/uploads/2025/08/kazan-krasnodar_600x400.jpg</picture>
+        <delivery>true</delivery>
+        <description>Перевозка фурой по маршруту Казань → Краснодар. Время в пути ~2 дня. Цена от 165 000 ₽.</description>
+      </offer>
+      <offer id="route-kzn-rov" available="true">
+        <url>https://fastfura.ru/gruzoperevozki-kazan-rostov-furoj/</url>
+        <price>120000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <name>Казань → Ростов-на-Дону (фура)</name>
+        <picture>https://fastfura.ru/wp-content/uploads/2025/08/kazan-rostov_600x400.jpg</picture>
+        <delivery>true</delivery>
+        <description>Перевозка фурой по маршруту Казань → Ростов-на-Дону. Время в пути ~1,5 дня. Цена от 120 000 ₽.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
